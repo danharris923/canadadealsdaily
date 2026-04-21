@@ -21,6 +21,7 @@ IMAGES = Path("images")
 STATE = Path(".state/seen.json")
 UA = "Mozilla/5.0 (compatible; deal-aggregator/1.0)"
 DELAY = float(os.environ.get("SCRAPE_DELAY", "1.0"))
+MAX_DEALS = int(os.environ["MAX_DEALS"]) if os.environ.get("MAX_DEALS") else None
 IMAGE_MAX_BYTES = 3 * 1024 * 1024  # hard cap per file
 IMAGE_EXTS = {"jpg", "jpeg", "png", "webp", "avif", "gif"}
 
@@ -143,6 +144,8 @@ def main():
 
     with httpx.Client(headers={"User-Agent": UA}) as client:
         urls = parse_sitemap(client)
+        if MAX_DEALS:
+            urls = urls[:MAX_DEALS]
         print(f"[sitemap] {len(urls)} deal URLs", file=sys.stderr)
 
         new_count = 0
@@ -196,6 +199,9 @@ def main():
             }
             state[deal_id] = lastmod
             new_count += 1
+            # Flush after each deal so partial runs are still useful.
+            OUTPUT.write_text(json.dumps(list(deals.values()), indent=2))
+            save_state(state)
             time.sleep(DELAY)
 
     OUTPUT.write_text(json.dumps(list(deals.values()), indent=2))

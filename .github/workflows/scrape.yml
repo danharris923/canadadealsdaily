@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:
+    inputs:
+      max_deals:
+        description: "Cap number of deals (blank = all)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -29,6 +34,7 @@ jobs:
         env:
           AMAZON_TAG: ${{ secrets.AMAZON_TAG }}
           PUBLIC_BASE: ${{ vars.PUBLIC_BASE }}
+          MAX_DEALS: ${{ inputs.max_deals }}
 
       - name: commit
         run: |
