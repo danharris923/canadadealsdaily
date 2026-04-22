@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html lang="en-us" class="a-no-js a-lt-ie9 a-lt-ie8 a-lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="a-no-js a-lt-ie9 a-lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="a-no-js a-lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="a-no-js" lang="en-us"><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title dir="ltr">Amazon.ca</title>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/AmazonUI-3c913031596ca78a3768f4e934b1cc02ce238101.secure.min._V1_.css">
+<script>
+
+if (true === true) {
+    var ue_t0 = (+ new Date()),
+        ue_csm = window,
+        ue = { t0: ue_t0, d: function() { return (+new Date() - ue_t0); } },
+        ue_furl = "fls-na.amazon.ca",
+        ue_mid = "A2EUQ1WTGCTBG2",
+        ue_sid = (document.cookie.match(/session-id=([0-9-]+)/) || [])[1],
+        ue_sn = "opfcaptcha.amazon.ca",
+        ue_id = 'Y5WF23S054QFQ6TC9FZB';
+}
+</script>
+</head>
+<body>
+
+<!--
+        To discuss automated access to Amazon data please contact api-services-support@amazon.com.
+        For information about migrating to our APIs refer to our Marketplace APIs at https://developer.amazonservices.ca/ref=rm_5_sv, or our Product Advertising API at https://associates.amazon.ca/gp/advertising/api/detail/main.html/ref=rm_5_ac for advertising use cases.
+-->
+
+<!--
+Correios.DoNotSend
+-->
+
+<div class="a-container a-padding-double-large" style="min-width:350px;padding:44px 0 !important">
+
+    <div class="a-row a-spacing-double-large" style="width: 350px; margin: 0 auto">
+
+        <div class="a-row a-spacing-medium a-text-center"><i class="a-icon a-logo" alt="Amazon logo"></i></div>
+
+        <div class="a-box a-alert a-alert-info a-spacing-base">
+            <div class="a-box-inner">
+                <i class="a-icon a-icon-alert" alt="Alert icon"></i>
+                <h4>Click the button below to continue shopping</h4>
+                </div>
+            </div>
+
+            <div class="a-section">
+
+                <div class="a-box a-color-offset-background">
+                    <div class="a-box-inner a-padding-extra-large">
+
+                        <form method="get" action="/errors/validateCaptcha" name="">
+                            <input type=hidden name="amzn" value="6hZojrdUCY8PQih9Hxn8yg==" /><input type=hidden name="amzn-r" value="&#047;Qixing&#045;Womens&#045;Chiffon&#045;Elegant&#045;Black&#045;L&#047;dp&#047;B0BQ6S4WBH?dib&#061;eyJ2IjoiMSJ9.vghoyL0Kp&#045;ncXYbZE6h7ypSwEqzYP&#045;D3BzQkSz9nhB9eBe&#045;kyAStoGRObaoSZxqc&#045;mkLgYPXjnXuALkt1PyNDRlWPkYIPU8yc8n28Q_8IcHBD5t7MqbQDLWrWBI5wNltc5QUin6y78&#045;uBWGdYAn7f&#045;69z4x2nsahA8w&#045;AWRxrRgcK4SOU8AGvhuOEVzSrMJA2XCpTWxi8i0tm7iHk492uC3YgtkjcNGVq2ZBBaToYPaEJaCP7J4feD5rqSlH29I0VXGNim0VTzh6QyHpoCuJfQnAAs9BfiCGe0sZuPnxqJ8.bnwirjLafBFqaZh4OSVm31xX1AZDvk1jncMYOsrwx2U&amp;dib_tag&#061;se&amp;qid&#061;1752846806&amp;s&#061;fashion&amp;sr&#061;1&#045;49&amp;th&#061;1&amp;psc&#061;1&amp;linkCode&#061;sl1&amp;tag&#061;man0f6&#045;20&amp;linkId&#061;853f6e0f138ea50e758eea9ea0600bb4&amp;language&#061;en_CA&amp;ref_&#061;as_li_ss_tl" />
+                            <input type=hidden name="field-keywords" value="NPHEPF" />
+                            <div class="a-section a-spacing-extra-large">
+
+                                <div class="a-row">
+                                    <span class="a-button a-button-primary a-span12">
+                                        <span class="a-button-inner">
+                                            <button type="submit" class="a-button-text" alt="Continue shopping">Continue shopping</button>
+                                        </span>
+                                    </span>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="a-divider a-divider-section"><div class="a-divider-inner"></div></div>
+
+        <div class="a-text-center a-spacing-small a-size-mini">
+            <a href="https://www.amazon.ca/gp/help/customer/display.html/ref=footer_cou?ie=UTF8&nodeId=1040616">Conditions of Use &amp; Sale</a>
+            <span class="a-letter-space"></span>
+            <span class="a-letter-space"></span>
+            <span class="a-letter-space"></span>
+            <span class="a-letter-space"></span>
+            <a href="https://www.amazon.ca/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=502584">Privacy Notice</a>
+        </div>
+
+        <div class="a-text-center a-size-mini a-color-base">
+          &copy; 1996-2025, Amazon.com, Inc. or its affiliates
+          <script>
+           if (true === true) {
+             document.write('<img src="https://fls-na.amaz'+'on.ca/'+'1/oc-csi/1/OP/requestId=Y5WF23S054QFQ6TC9FZB&js=1" alt=""/>');
+           };
+          </script>
+          <noscript>
+            <img src="https://fls-na.amazon.ca/1/oc-csi/1/OP/requestId=Y5WF23S054QFQ6TC9FZB&js=0" alt=""/>
+          </noscript>
+        </div>
+    </div>
+    <script>
+    if (true === true) {
+        var head = document.getElementsByTagName('head')[0],
+            prefix = "https://images-na.ssl-images-amazon.com/images/G/01/csminstrumentation/",
+            elem = document.createElement("script");
+        elem.src = prefix + "csm-captcha-instrumentation.min.js";
+        head.appendChild(elem);
+
+        elem = document.createElement("script");
+        elem.src = prefix + "rd-script-6d68177fa6061598e9509dc4b5bdd08d.js";
+        head.appendChild(elem);
+    }
+    </script>
+</body></html>
