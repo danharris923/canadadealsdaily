@@ -86,6 +86,8 @@ def mirror_image(client, url, deal_id):
     existing = next(IMAGES.glob(f"{deal_id}.*"), None)
     if existing:
         return existing.as_posix()
+    if not url.startswith(("http://", "https://")):
+        return None
     try:
         with client.stream("GET", url, timeout=20, follow_redirects=True) as r:
             r.raise_for_status()
